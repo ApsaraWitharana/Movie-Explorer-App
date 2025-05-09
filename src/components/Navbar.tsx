@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Film, User, Heart, Moon, Sun, LogOut, Menu, X } from 'lucide-react';
+import { Film, User, Heart, LogOut, Menu, X } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Navbar: React.FC = () => {
   const { isAuthenticated, user, logout } = useAuth();
-  const { theme, toggleTheme } = useTheme();
   const navigate = useNavigate();
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -85,14 +84,6 @@ const Navbar: React.FC = () => {
 
             {/* Actions */}
             <div className="flex items-center">
-              {/* Theme Toggle */}
-              <button
-                  onClick={toggleTheme}
-                  className="p-2 text-slate-700 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-                  aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
-              >
-                {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-              </button>
 
               {/* User Menu (Desktop) */}
               {isAuthenticated && (
