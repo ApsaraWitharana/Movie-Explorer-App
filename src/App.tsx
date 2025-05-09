@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import MovieDetail from './pages/MovieDetail';
 
 import Footer from './components/Footer';
+import Favorites from "./pages/Favorites.tsx";
 
 function App() {
     return (
@@ -30,7 +31,11 @@ function App() {
                                             <MovieDetail />
                                         </ProtectedRoute>
                                     } />
-
+                                    <Route path="/favorites" element={
+                                        <ProtectedRoute>
+                                            <Favorites />
+                                        </ProtectedRoute>
+                                    } />
                                     <Route path="*" element={<Navigate to="/" replace />} />
                                 </Routes>
                             </main>
