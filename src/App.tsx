@@ -5,6 +5,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Home from './pages/Home';
+import MovieDetail from './pages/MovieDetail';
 
 import Footer from './components/Footer';
 
@@ -22,6 +23,11 @@ function App() {
                                     <Route path="/" element={
                                         <ProtectedRoute>
                                             <Home />
+                                        </ProtectedRoute>
+                                    } />
+                                    <Route path="/movie/:id" element={
+                                        <ProtectedRoute>
+                                            <MovieDetail />
                                         </ProtectedRoute>
                                     } />
 
