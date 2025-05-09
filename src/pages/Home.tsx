@@ -3,6 +3,7 @@ import { useMovie } from '../contexts/MovieContext';
 import MovieGrid from '../components/MovieGrid';
 import SearchBar from '../components/SearchBar';
 import TrendingMovies from '../components/TrendingMovies';
+import MovieFilter from '../components/MovieFilter';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 const Home: React.FC = () => {
@@ -62,7 +63,7 @@ const Home: React.FC = () => {
         
         {showSearch && (
           <div className="mt-4">
-
+            <MovieFilter />
           </div>
         )}
       </div>
