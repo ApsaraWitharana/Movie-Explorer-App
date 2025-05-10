@@ -9,10 +9,11 @@ import MovieDetail from './pages/MovieDetail';
 
 import Footer from './components/Footer';
 import Favorites from "./pages/Favorites.tsx";
+import { ThemeProvider } from './contexts/ThemeContext.tsx';
 
 function App() {
     return (
-
+        <ThemeProvider>
             <AuthProvider>
                 <MovieProvider>
                     <Router>
@@ -44,8 +45,14 @@ function App() {
                     </Router>
                 </MovieProvider>
             </AuthProvider>
-
+        </ThemeProvider>
     );
 }
 
 export default App;
+
+/**
+ #* @author : sachini apsara
+ #* @date : 2024-05-10
+ #* @project : Movie Explorer (Loons Lab)
+ #**/

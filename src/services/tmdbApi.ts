@@ -46,3 +46,9 @@ export const tmdbApi = {
     return response.data;
   },
 };
+
+/**
+ #* @author : sachini apsara
+ #* @date : 2024-05-09
+ #* @project : Movie Explorer (Loons Lab)
+ #**/
