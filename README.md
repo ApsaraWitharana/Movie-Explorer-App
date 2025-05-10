@@ -2,7 +2,7 @@
 
 Welcome to **Movie Explorer**, a web application that allows users to explore trending movies, search for their favorite films, and dive deep into movie details including trailers, ratings, genres, and more – all powered by [TMDb API](https://developers.themoviedb.org/3).
 
-> 🚀 Live Demo: [https://movie-explorer-app-kappa.vercel.app/](https://your-movie-explorer.vercel.app)  
+> 🚀 Live Demo: [https://movie-explorer-app-kappa.vercel.app/](https://movie-explorer-app-kappa.vercel.app/)  
 > 📂 Confidential Project for Loons Lab – 10th Floor, East Tower, World Trade Centre, Colombo.
 
 ---
