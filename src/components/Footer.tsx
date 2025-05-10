@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex items-center mt-4 md:mt-0 text-sm text-slate-600 dark:text-slate-400">
-            <span>Made with</span>
+            <span>Made with Sachini</span>
             <Heart className="h-4 w-4 mx-1 text-accent-500" fill="currentColor" />
             <span>in 2025</span>
           </div>
