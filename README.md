@@ -57,7 +57,10 @@ Welcome to **Movie Explorer**, a web application that allows users to explore tr
 ### Favorites Movies
 ![WhatsApp Image 2025-05-10 at 21 55 48_1e02f5b6](https://github.com/user-attachments/assets/f8b5e174-272f-4687-be04-7ae22c2d88d4)
 
+### Theam Color (Dark)
+![WhatsApp Image 2025-05-10 at 22 13 09_943fdab3](https://github.com/user-attachments/assets/37fe212c-f392-4d27-bb87-dc45cd520471)
 
+![WhatsApp Image 2025-05-10 at 22 19 37_11f872fe](https://github.com/user-attachments/assets/17102b13-30cf-4920-83b3-75e3000412a4)
 
 ---
 
